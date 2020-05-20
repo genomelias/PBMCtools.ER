@@ -1,0 +1,32 @@
+Package: PBMCtools.ER
+Title: Tools for single cell RNA-seq analysis of PBMCs
+Version: 0.0.1
+Authors@R: 
+    person(given = "Elias Rafael",
+           family = "Ruiz-Morales",
+           role = c("aut"),
+           email = "er13@sanger.ac.uk",
+           comment = c(ORCID = "https://orcid.org/0000-0002-5801-6190"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports:
+	Seurat (>= 3.1.1),
+	dplyr (>= 0.8.3),
+	ggplot2 (>= 3.2.1),
+	cowplot (>= 1.0.0),
+	umap (== 0.2.3.1),
+	gridExtra (>= 2.3),
+	grid (>= 3.6.3),
+	purrr (>= 0.3.3),
+	RColorBrewer (>= 1.1-2),
+	corrplot (>= 0.84),
+	comprehenr (>= 0.6.7),
+	SingleCellExperiment (>= 1.8.0),
+	ggrepel (>= 0.8.1),
+	scales (>= 1.0.0),
+	reshape2 (>= 1.4.3)
